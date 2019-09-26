@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+find_package(OpenCL REQUIRED)
+include_directories(${OpenCL_INCLUDE_DIRS})
+add_executable(dataParallel dataParallel.cpp)
+target_link_libraries(dataParallel ${OpenCL_LIBRARIES})

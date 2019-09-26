@@ -1,0 +1,15 @@
+﻿Instalação cmake / nvidia-opencl-dev
+
+$ sudo apt-get install cmake
+
+$ sudo apt-get install nvidia-opencl-dev
+
+
+
+
+Comandos para compilar e executar
+
+$ cmake .
+$ make
+
+$ ./dataParallel.nvidia 
